@@ -4,10 +4,10 @@ function preencherFormulario(endereco){
     document.getElementById('bairro').value = endereco.bairro;
     document.getElementById('localidade').value = endereco.localidade;
     document.getElementById('uf').value = endereco.uf;
-    document.getElementById('ibge').value = endereco.ibge;
+    /*document.getElementById('ibge').value = endereco.ibge;
     document.getElementById('gia').value = endereco.gia;
     document.getElementById('ddd').value = endereco.ddd;
-    document.getElementById('siafi').value = endereco.siafi;
+    document.getElementById('siafi').value = endereco.siafi;*/
 }
 
 const pesquisaCep = async() => {

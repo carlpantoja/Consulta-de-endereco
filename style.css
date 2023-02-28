@@ -33,11 +33,21 @@ main.card section.cards button{
     padding: 0.3rem 1rem;
     cursor: pointer;
 }
+
+#consultar{
+    padding: 4px;
+    cursor: pointer;
+}
+
 .resultado{
     display: flex;
     flex-direction: column;
     margin-top: 7px;
     border-radius: 10px;
+}
+
+.resultado input{
+    border: none;
 }
 
 .load {

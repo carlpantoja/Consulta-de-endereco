@@ -1,0 +1,1 @@
+Aplicação para consulta de endereços usando a API ViaCep.

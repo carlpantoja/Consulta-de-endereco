@@ -18,44 +18,25 @@
                 <input type="button" id="consultar" value="Consultar" onclick="pesquisaCep()"></input>
                 <div class="resultado">
                     <div class="load" id="loading" style="display: none;"></div>
-                    <table>
-                        <tr>
-                            <td><label for="logradouro">Endereço: </label></td>
-                            <td><input type="text" readonly id="endereço" value=""></td>
-                        </tr>
-                        <tr>
-                            <td><label for="complemento">Complemento: </label></td>
-                            <td><input type="text" readonly id="complemento" value=""></td>
-                        </tr>
-                        <tr>
-                            <td><label for="bairro">Bairro: </label></td>
-                            <td><input type="text" readonly id="bairro" value=""></td>
-                        </tr>
-                        <tr>
-                            <td><label for="localidade">Cidade: </label></td>
-                            <td><input type="text" readonly id="localidade" value=""></td>
-                        </tr>
-                        <tr>
-                            <td><label for="uf">Uf: </label></td>
-                            <td><input type="text" readonly id="uf" value=""></td>
-                        </tr><!--
-                        <tr>
-                            <td><label for="ibge">Ibge: </label></td>
-                            <td><input type="text" readonly id="ibge" value=""></td>
-                        </tr>
-                        <tr>
-                            <td><label for="gia">Gia: </label></td>
-                            <td><input type="text" readonly id="gia" value=""></td>
-                        </tr>
-                        <tr>
-                            <td><label for="ddd">DDD: </label></td>
-                            <td><input type="text" readonly id="ddd" value=""></td>
-                        </tr>
-                        <tr>
-                            <td><label for="siafi">Siafi: </label></td>
-                            <td><input type="text" readonly id="siafi" value=""></td>
-                        </tr>-->
-                    </table>
+                    <label for="logradouro">Endereço: 
+                        <input type="text" disabled id="endereço" value="">
+                    </label>
+
+                    <label for="complemento">Complemento: 
+                        <input type="text" disabled id="complemento" value="">
+                    </label>
+
+                    <label for="bairro">Bairro: 
+                        <input type="text" disabled id="bairro" value="">
+                    </label>
+
+                    <label for="localidade">Cidade: 
+                        <input type="text" disabled id="localidade" value="">
+                    </label>
+
+                    <label for="uf">UF: 
+                        <input type="text" disabled id="uf" value="">
+                    </label>
                 </div>
             </form>
         </section>
